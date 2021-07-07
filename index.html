@@ -1,0 +1,281 @@
+<!--
+ASSIGNMENT TOPIC
+You are creating a website to showcase your favourite music albums.
+In this page you will have a short biography section of yourself, and the top albums of your life, 
+the worst album you ever listened to and everything related to the music you love.
+
+ASSIGNMENT RULES
+- The project must be pushed to a new repository and linked in EduFlow by the end of the day.
+- You can google / use StackOverflow BUT we suggest you to use just the material provided and documentation.
+- To test the page, open it with your browser and inspect it with developer tools / device emulator.
+- Use Bootstrap4.6 classes to create the page.
+- Use containers, rows and cols in order to achieve a great responsive layout.
+
+NOTE:
+Even the most experienced designers need inspiration.
+Spend some time surfing the web researching the best way of representing the albums you love.
+Could be the Amazon way, the Spotify or Apple music way or any other music collection out there.
+
+HINT: Manage your time in order to finish the structure and responsiveness before focusing on details.
+--><!DOCTYPE html>
+<!-- saved from url=(0433)https://s3.eu-west-1.amazonaws.com/eduflow-production/activity-resources/984565489511016.html?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA2TAWW44RCEE6YREN%2F20210427%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20210427T121611Z&X-Amz-Expires=600&X-Amz-SignedHeaders=host&response-content-disposition=inline%3B%20filename%2A%3DUTF-8%27%27D2.html&X-Amz-Signature=036568fbe354e0ced552c5f0bccda6954661e45631e264713c3696e5df589e27 -->
+
+<html lang="en">
+  <head>
+    <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>music album</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <style>/* EXERCISE 1
+        For every Album we'd like to have a consistent style.
+        Create a class for:
+        - The album container
+        - The album cover
+        - The album title
+        - The album group / singer / dj
+        - The album genre
+        - The album duration
+        - etc
+
+        to make sure you give every album the same consistent appearance.
+     */</style>
+  </head>
+  <body>
+   <!-- EXERCISE 2 
+            Implement a navigation bar using the bootstrap component
+            This navigation bar must link every section in your page
+        -->
+    <div class = "container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand" href="#">My Choice</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#favoritealbums">Favorite Albums <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#recentlyvisited">Recently Visited</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#neverliked">Never liked</a>
+              </li>
+              </ul>
+            </div>
+        </nav></div>
+        
+
+    <!-- EXERCISE 3
+            Create a responsive section for your favourite albums.
+            In this section you should have:
+            - 4 albums per row when the screen is very large
+            - 3 albums per row when you are on a tablet (or a smaller viewport)
+            - 2 albums per row when you are on a small screen
+        -->
+        
+        
+            
+            <!-- <span class="badge badge-success">Price 9€</span> -->
+        </div></div>
+        <div class="container text-center">        
+            <div class="jumbotron  ">
+              <h1 class="display-">Music Album</h1>
+              <p class="lead">Enjoy my taste of music</p>
+              <hr class="my-1">
+              <p>I am an artistic person with a unique taste in art and music.</p>
+              <!-- <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a> -->
+            </div>
+          </div>
+        <div class="container">
+            <span><h3 class="text-center pb-2">My List</h3></span> 
+            <div class="row " id="albums">
+        <div class="col-6 col-md-4 col-lg-3 rounded">
+
+            <div class="shadow-lg p-3 mb-5 bg-black rounded ">
+                <img src="images/johnlegend.jpg" alt="album cover" class="img-fluid cover" />
+            <p class="title ">All of me</p>
+            <p class="artist">John Legend</p>
+            <p class="year">2013</p>
+            <!-- <span class="badge badge-success">Price 9€</span> -->
+        </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 rounded">
+
+            <div class="shadow-lg p-3 mb-5 bg-black rounded ">
+                <img src="images/perfect.jpg" alt="album cover" class="img-fluid cover" />
+            <p class="title ">perfect</p>
+            <p class="artist">Ed shreen</p>
+            <p class="year">2017</p>
+            <!-- <span class="badge badge-success">Price 9€</span> -->
+        </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 rounded">
+
+            <div class="shadow-lg p-3 mb-5 bg-black rounded ">
+                <img src="images/singleladies.jpg" alt="album cover" class="img-fluid cover" />
+            <p class="title ">Single Ladies</p>
+            <p class="artist">Beyonce</p>
+            <p class="year">2008</p>
+            <!-- <span class="badge badge-success">Price 9€</span> -->
+        </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 rounded">
+
+            <div class="shadow-lg p-3 mb-5 bg-black rounded ">
+                <img src="images/mirrors.jpg" alt="album cover" class="img-fluid cover" />
+            <p class="title ">Mirrors</p>
+            <p class="artist">Justin Timberlake</p>
+            <p class="year">2011</p>
+            <!-- <span class="badge badge-success">Price 9€</span> -->
+        </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 rounded">
+
+            <div class="shadow-lg p-3 mb-5 bg-black rounded ">
+                <img src="images/adele.jpg" alt="album cover" class="img-fluid cover" />
+            <p class="title ">someone like you</p>
+            <p class="artist">Adele</p>
+            <p class="year">2012</p>
+            <!-- <span class="badge badge-success">Price 9€</span> -->
+        </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 rounded">
+
+            <div class="shadow-lg p-3 mb-5 bg-black rounded ">
+                <img src="images/adele.jpg" alt="album cover" class="img-fluid cover" />
+            <p class="title ">someone like you</p>
+            <p class="artist">Adele</p>
+            <p class="year">2012</p>
+            <!-- <span class="badge badge-success">Price 9€</span> -->
+        </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 rounded">
+
+            <div class="shadow-lg p-3 mb-5 bg-black rounded ">
+                <img src="images/adele.jpg" alt="album cover" class="img-fluid cover" />
+            <p class="title ">someone like you</p>
+            <p class="artist">Adele</p>
+            <p class="year">2012</p>
+            <!-- <span class="badge badge-success">Price 9€</span> -->
+        </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 rounded">
+
+            <div class="shadow-lg p-3 mb-5 bg-black rounded ">
+                <img src="images/adele.jpg" alt="album cover" class="img-fluid cover" />
+            <p class="title ">someone like you</p>
+            <p class="artist">Adele</p>
+            <p class="year">2012</p>
+            <!-- <span class="badge badge-success">Price 9€</span> -->
+        </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 rounded">
+
+            <div class="shadow-lg p-3 mb-5 bg-black rounded ">
+                <img src="images/adele.jpg" alt="album cover" class="img-fluid cover" />
+            <p class="title ">someone like you</p>
+            <p class="artist">Adele</p>
+            <p class="year">2012</p>
+            <!-- <span class="badge badge-success">Price 9€</span> -->
+        </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 rounded">
+
+            <div class="shadow-lg p-3 mb-5 bg-black rounded ">
+                <img src="images/adele.jpg" alt="album cover" class="img-fluid cover" />
+            <p class="title ">someone like you</p>
+            <p class="artist">Adele</p>
+            <p class="year">2012</p>
+            <!-- <span class="badge badge-success">Price 9€</span> -->
+        </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 rounded">
+
+            <div class="shadow-lg p-3 mb-5 bg-black rounded ">
+                <img src="images/adele.jpg" alt="album cover" class="img-fluid cover" />
+            <p class="title ">someone like you</p>
+            <p class="artist">Adele</p>
+            <p class="year">2012</p>
+            <!-- <span class="badge badge-success">Price 9€</span> -->
+        </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 rounded">
+
+            <div class="shadow-lg p-3 mb-5 bg-black rounded ">
+                <img src="images/adele.jpg" alt="album cover" class="img-fluid cover" />
+            <p class="title ">someone like you</p>
+            <p class="artist">Adele</p>
+            <p class="year">2012</p>
+            <!-- <span class="badge badge-success">Price 9€</span> -->
+        </div>
+        </div>
+        
+        
+    <!-- EXERCISE 4
+            Create a section for the album reviews.
+            Pick one of your fav albums, and create a section with:
+            - Cover
+            - Title
+            - Band
+            - Duration
+            - Genre
+            - Tracklist
+            - ... And whatever you think it's interesting about it!
+        -->
+        <div class="container-d"> 
+        <div class="reviews"> <h3>Reviews</h3></div>
+        <div class = "col-6 col-md-6 col-lg-6">
+            <img src="images/review.jpg" alt="reviewed">
+        </div>
+        <div class="col-6 col-md-6 col-lg-6 width-50%">
+            <p>Reggaeton remains the king of the Latin music scene, but it’s reaching a point where the songs are becoming repetitive. With his debut album, last year’s Afrodisíaco, Alejandro was starting to test the genre-bending waters. In Vice Versa, he’s flipping the script and leaning fully into his innovative intuition. With recent collaboration co-signs from Selena Gomez, Jennifer Lopez, and Christina Aguilera, Rauw is solidifying himself as the next Latin pop star and this latest album is testament to that.  </p>
+
+    </div>
+    </div>
+    <!-- EXERCISE 5
+            Worst album list! Find out the music you don't really like or you find overrated and list it
+            in this "hall of shame" chart!
+        -->
+        
+
+    <!-- EXERCISE 6
+            Do you have any musician / band you admire or you are a fan of?
+            This section is dedicated to him / her / them!
+            Feel free to experiment in this part of the page.
+        -->
+
+    <!-- EXERCISE 7
+            Just covers!
+            Create a tapestry of album pictures. Every album picture must be "square" (use CSS to do that).
+            Put at least 20 covers (also repeated) to have a nice effect and see how Bootstrap handles it.
+        -->
+
+    <!-- EXERCISE 8
+            Implement a footer with some information / social links
+        -->
+
+    <!-- ############ EXTRA:
+        EXERCISE 9
+            Create an album details area that is going to be toggled on and off by clicking on the album image
+        -->
+
+    <!-- EXERCISE 10
+            Add a button to each section. By clicking on it the section body appears (if hidden) or disappears (if visible) 
+            (hint: look for a boostrap component that can handle the job for you. You can always rely on DOM manipulation if you can't find it)
+        -->
+
+    <!--
+         EXERCISE 11
+            Add in the footer a field that counts, on page load, how many ALBUMS there are on the page 
+        -->
+  </body>
+  </html>
