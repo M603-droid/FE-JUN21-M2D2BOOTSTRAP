@@ -1,4 +1,8 @@
-
+ 
+  img {
+    width: 200px;
+    height: 150px;
+  }
   
   body {
     background-color: rgb(36, 1, 1);
@@ -32,28 +36,25 @@
   .album-collections {
     margin-top: 10px;
   }
-  
-  img {
-    width: 220px;
-    height: 220px;
-  }
+ 
   
   .navbar {
     width: 100%;
     margin: auto;
     padding-top: 30px;
+    
   }
   
   
   
   .nav {
     position: fixed;
-    background-color: rgb(49, 47, 47);
+    background-color: rgb(228, 4, 4);
     z-index: 1;
   }
   
   p {
-    text-align: left;
+    text-align: center;
   }
   
   ol li {
